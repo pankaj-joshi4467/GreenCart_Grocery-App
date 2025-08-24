@@ -80,19 +80,12 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 Run the Project
 
 # Start backend
-cd backend
-npm start
+cd server
+npm run dev
 
-# Start frontend
-cd ../frontend
-npm start
-
-# Start admin panel
-cd ../admin
-npm start
-
-📸 Screenshots
-
+# Start client
+cd ../client
+npm run server
 
 
 👨‍💻 Author
