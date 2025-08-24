@@ -38,7 +38,7 @@ const AddAddress = () => {
         e.preventDefault();
         // Handle form submission logic here
         try {
-            const {data} = await axios.post('/api/address/add',{address})
+            const {data} = await axios.post('/api/address/add',{address,userId: user._id})
             if (data.success) {
                 toast.success(data.message)
                 if (fetchUser) await fetchUser();
